@@ -1,5 +1,5 @@
 import './index.css'
-import {userInfo} from 'os'
+import {UserInfo} from '../UserInfo'
 import BlogList from '../BlogList'
 
 const blogsList = [
@@ -38,7 +38,7 @@ const blogsList = [
 ]
 const Home = () => (
   <div className="home-container">
-    <userInfo />
+    <UserInfo />
     <BlogList blogsList={blogsList} />
   </div>
 )
